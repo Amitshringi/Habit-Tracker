@@ -42,7 +42,7 @@ app.use(cookieParser());
 app.use(session({
     name: "habbit tracker",
     // Change the secret before deployment in production
-    secret: 'testpurpose',
+    secret: 'Nothing',
     saveUninitialized: false,
     resave: false,
     cookie: {
